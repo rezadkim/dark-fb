@@ -6,4 +6,4 @@ git clone https://github.com/rezadkim/dark-fb<br>
 cd dark-fb<br>
 pip2 install reuests<br>
 pip2 install mechanize<br>
-python2 dark.p
+python2 dark.py
