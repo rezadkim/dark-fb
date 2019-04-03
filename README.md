@@ -1,5 +1,5 @@
 # Dark-FB
-v1.1
+v1.2
 <br>
 pkg install python2<br>
 pkg install git<br>
