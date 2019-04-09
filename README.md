@@ -1,6 +1,7 @@
 # Dark-FB
 v1.4
 <br>
+cd /sdcard<br>
 pkg install python2<br>
 pkg install git<br>
 git clone https://github.com/rezadkim/dark-fb<br>
