@@ -1,5 +1,5 @@
 # Dark-FB
-v1.4
+v1.5
 <br>
 cd /sdcard<br>
 pkg install python2<br>
