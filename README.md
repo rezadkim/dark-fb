@@ -8,4 +8,4 @@ pip2 install requests<br>
 pip2 install mechanize<br>
 python2 dark.py<br>
 <br>
-<img src="https://raw.githubusercontent.com/rezadkim/dark-fb/master/Screenshot_2019-05-08-19-47-56.png">
+<img src="https://raw.githubusercontent.com/rezadkim/dark-fb/master/Screenshot_2019-06-12-07-44-38.png">
