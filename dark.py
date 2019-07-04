@@ -103,7 +103,7 @@ vuln = "\033[32mVuln"
 ##### LICENSE #####
 #=================#
 def lisensi():
-	os.system("https://chat.whatsapp.com/EtcAqEdVh5ZALIPD3Yu6tB")
+	os.system("xdg-open https://chat.whatsapp.com/EtcAqEdVh5ZALIPD3Yu6tB")
 	os.system('reset')
 	print "Ini program ilegal,\nCeue tepod jangan pake program ini,\nntar tervully nangid :(\n"
 	username = raw_input("[*] Username : ")
