@@ -5,7 +5,7 @@
 # DARK-FB version1.7
 
 #Import module
-import os,subprocess,sys,time,datetime,random,hashlib,re,threading,json,getpass,urllib,cookielib
+import os,sys,time,datetime,random,hashlib,re,threading,json,getpass,urllib,cookielib
 from multiprocessing.pool import ThreadPool
 try:
 	import mechanize
@@ -103,7 +103,7 @@ vuln = "\033[32mVuln"
 ##### LICENSE #####
 #=================#
 def lisensi():
-	subprocess.check_output(["am","start","https://chat.whatsapp.com/EtcAqEdVh5ZALIPD3Yu6tB"])
+	os.system("https://chat.whatsapp.com/EtcAqEdVh5ZALIPD3Yu6tB")
 	os.system('reset')
 	print "Ini program ilegal,\nCeue tepod jangan pake program ini,\nntar tervully nangid :(\n"
 	username = raw_input("[*] Username : ")
