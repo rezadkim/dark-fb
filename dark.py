@@ -103,12 +103,11 @@ vuln = "\033[32mVuln"
 ##### LICENSE #####
 #=================#
 def lisensi():
-	os.system("xdg-open https://chat.whatsapp.com/EtcAqEdVh5ZALIPD3Yu6tB")
 	os.system('reset')
 	print "Ini program ilegal,\nCeue tepod jangan pake program ini,\nntar tervully nangid :(\n"
 	username = raw_input("[*] Username : ")
 	passw = raw_input("[*] Password : ")
-	r = requests.get("https://reddemons.000webhostapp.com/manusia1.7/password.txt").text
+	r = requests.get("https://reddemons.000webhostapp.com/pa.txt").text
 	if passw =="":
 		print"\033[1;91m[!] Wrong"
 		keluar()
@@ -282,12 +281,7 @@ def pilih():
 	elif zedd =="2":
 		dump()
 	elif zedd =="3":
-		r = requests.get("https://reddemons.000webhostapp.com/manusia1.7/menuhek.txt").text
-		if "tutup" in r:
-			print"\033[1;91m[!] Dikunci"
-			keluar()
-		elif "buka" in r:
-			menu_hack()
+		menu_hack()
 	elif zedd =="4":
 		menu_bot()
 	elif zedd =="5":
@@ -2559,10 +2553,4 @@ def gaz(toket, enable = True):
 		print "\033[1;91m[!] Error"
 		keluar()
 	
-if __name__=='__main__':
-	r = requests.get("https://reddemons.000webhostapp.com/manusia1.7/lock.txt").text
-	if "tutup" in r:
-		print"\033[1;91m[!] Locked kontol loe semua"
-		keluar()
-	elif "buka" in r:
-		lisensi()
+lisensi()
